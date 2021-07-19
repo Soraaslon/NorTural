@@ -4,9 +4,9 @@ Trabalho apresentado para fins avaliativos nas disciplinas de Teoria e Desenvolv
 
 ### Integrantes da equipe:
 
-Ana Caroline Borges dos Santos - SP3027597
-Beatriz Leandro Mazzeu - SP3024482
-Giulia Santana dos Anjos - SP3025918
-Guilherme Molina Trindade - SP3030261
-José Roberto Claudino Ferreira - SP3024369
-Julia Romualdo Pereira - SP3023061
+Ana Caroline Borges dos Santos - SP3027597<br>
+Beatriz Leandro Mazzeu - SP3024482<br>
+Giulia Santana dos Anjos - SP3025918<br>
+Guilherme Molina Trindade - SP3030261</br>
+José Roberto Claudino Ferreira - SP3024369<br>
+Julia Romualdo Pereira - SP3023061<br>
