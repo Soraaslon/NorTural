@@ -1,10 +1,10 @@
-# NorTural
+#  NorTural
 <p>Este projeto, tem o intuito de aumentar o conhecimento sobre a cultura do nordeste, uma cultura riquíssima de diversidade cultural, além de fazer parte da cultura do nosso país, mas que acaba sendo esquecida em meios a outras culturas internacionais e com muita influência/alcance.</p>
 <p>Trabalho apresentado para fins avaliativos nas disciplinas de Teoria e Desenvolvimentode Sistemas e Linguagem de Programação 3 do curso técnico de Informática integrado ao ensino médio do IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.</p>
 
 
-### Integrantes da equipe:
-
+###  Integrantes da equipe:
+<hr>
 Ana Caroline Borges dos Santos - SP3027597<br>
 Beatriz Leandro Mazzeu - SP3024482<br>
 Giulia Santana dos Anjos - SP3025918<br>
