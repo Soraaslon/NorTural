@@ -10,7 +10,7 @@
   position: relative;
   max-width: 1000px;
   width: 100% !important;
-  background-image: url('/game/imgs/background.jpg');
+  background-image: url('../game/imgs/background.jpg');
   background-position: 0 -220px;
   background-size: cover;
   /* animation: land 30s linear infinite; */
