@@ -1,0 +1,73 @@
+:root {
+  --color-background-index-light: #d1f8ff;
+  --color-background-index-dark: #21dfdf;
+  --color-text-base: #565252;
+  --color-text-base-light: #a5a5a5;
+  --color-text-light: #979797;
+  --color-primary: #72d5eb;
+  font-size: 60%;
+  --color-background: #ffffff;
+  --color-background-quiz: #e5e5e5;
+  --color-background-sub-container: #a5dce3;
+  --color-background-buttom: #76a7e1;
+  --color-background-bar: #72d5eb;
+  --color-border: #000000;
+
+  --color-orange-theme: #ff8832;
+  --color-blue-theme: #00ace2;
+  --color-green-theme: #00db30;
+  --color-white-theme: #ffffff;
+
+  --color-font-gray: #4f4f4f;
+  --color-background-box: #fafafa;
+  --color-line: #c4c4c4;
+}
+
+#disqus_thread a {
+  color: var(--color-blue-theme);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 2.4rem 'Iceland', cursive;
+  color: var(--color-text-base);
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 90%;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+}
+
+@media (max-width: 699px) {
+  :root {
+    font-size: 55%;
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}

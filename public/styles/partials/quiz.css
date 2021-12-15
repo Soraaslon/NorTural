@@ -1,0 +1,132 @@
+#page-quiz {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  font: 500 1.6rem 'Josefin Sans';
+  color: var(--color-text-light);
+}
+h1 {
+  text-align: center;
+  color: var(--color-orange-theme);
+  font-size: 4.2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+#question-present {
+  font: 400 2.8rem 'Bubblegum Sans';
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+#image-quiz {
+  width: 80%;
+  border-radius: 3rem;
+  height: 20rem;
+  display: flex;
+  margin: 1.5rem auto;
+  background: url('https://images.unsplash.com/photo-1586268290302-782ef58a11a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bm9yZGVzdGV8ZW58MHx8MHx8&w=1000&q=80')
+    no-repeat center center;
+  background-size: cover;
+}
+
+#num {
+  font: 400 2.4rem 'Iceland';
+  text-align: end;
+  margin-bottom: 1rem;
+}
+
+button {
+  border-color: var(--color-line);
+  width: 22.5rem;
+  border-radius: 1.4rem;
+  background-color: var(--color-blue-theme);
+
+  text-align: center;
+  padding: 1rem;
+  margin: 0 1.5rem;
+  /* border: 1px solid black; */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-top: 2rem;
+
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: white;
+
+  transition: 0.4s;
+  outline: 0px;
+}
+
+button:hover {
+  background-color: rgb(0, 152, 199);
+  transform: translateY(-0.4rem);
+}
+
+#button-container {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+ul li {
+  width: 100%;
+  padding: 1rem;
+  display: inline-block;
+}
+.option-answer {
+  background: #f5f8fa;
+  display: inline-block;
+  padding: 2rem;
+  width: 90%;
+  border: 1px solid #76a7e1;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 2.4rem;
+  transition: 0.4s;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.option-answer:hover {
+  background-color: #ebedee;
+  color: var(--color-text-base);
+}
+
+#avise {
+  text-align: center;
+  font: 400 2rem 'Bungee';
+  color: rgba(255, 0, 0, 0.698);
+}
+
+#prev {
+  display: none;
+}
+
+#next {
+  margin-left: auto;
+}
+
+#start {
+  display: none;
+  width: 100px;
+}
+input[type='radio'] {
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  ul li {
+    width: 50%;
+    margin: 1.5rem 0;
+  }
+
+  body #container {
+    margin-bottom: 0rem;
+  }
+}

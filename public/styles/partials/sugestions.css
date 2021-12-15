@@ -1,0 +1,78 @@
+#disqus_thread a {
+  color: var(--color-orange-theme);
+}
+
+.result-final {
+  text-align: center;
+}
+
+p {
+  font: 400 2.2rem 'Iceland';
+}
+
+#title {
+  font: 400 3.6rem 'Bubblegum Sans';
+  -webkit-text-stroke-color: var(--color-blue-theme);
+  text-shadow: 1px 1px var(--color-blue-theme);
+  margin-bottom: 1.5rem;
+}
+
+#sua-resposta {
+  font-size: 2.8rem;
+}
+
+#pontuacao {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  width: 25rem;
+  font: 400 2.4rem 'Bungee';
+  text-align: center;
+  background-color: var(--color-blue-theme);
+  color: white;
+}
+
+#com-base {
+  max-width: 40rem;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+#respostas-box .respostas {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+/* .respostas p {
+} */
+
+.respostas .sugestao {
+  margin-left: 3rem;
+  font: 400 1.8rem 'Bungee';
+  color: var(--color-orange-theme);
+}
+.respostas hr {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.respostas + .respostas,
+#disqus_thread {
+  margin-top: 5rem;
+}
+
+.respostas img {
+  max-width: 40rem;
+  display: flex;
+  margin: 1.5rem auto;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 4px rgba(0, 214, 47, 0.5);
+  max-height: 40rem;
+}
+
+@media (min-width: 700px) {
+  .respostas img {
+    max-width: 50rem;
+  }
+}

@@ -1,0 +1,12 @@
+#game__content .game {
+  box-shadow: 4px 4px 4px rgba(0, 158, 208, 0.25);
+  border-radius: 2.5rem;
+  width: 640px;
+}
+
+#game__content h1 {
+  font: 400 3.6rem 'Bubblegum Sans';
+  color: var(--color-blue-theme);
+  text-shadow: 3px 3px 3px rgba(0, 158, 208, 0.25);
+  margin-bottom: 1.5rem;
+}

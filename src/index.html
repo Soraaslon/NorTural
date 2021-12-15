@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="shortcut icon"
+      href="/public/images/Icon_logo.svg"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" href="/public/styles/main.css" />
+    <link rel="stylesheet" href="/public/styles/partials/header.css" />
+    <link rel="stylesheet" href="/public/styles/partials/footer.css" />
+    <link rel="stylesheet" href="/public/styles/partials/container.css" />
+    <link rel="stylesheet" href="/public/styles/partials/main_page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="../public/scripts/carrousel.js" defer></script>
+    <script src="../public/scripts/map.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Bungee&family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="top-bar">
+        <div id="logo">
+          <a href="/src/index.html">
+            <span id="header__text--green">NOR</span
+            ><span id="header__text--blue">TURAL</span>
+          </a>
+        </div>
+        <div id="search">
+          <input
+            name="search__input"
+            id="search__input"
+            type="text"
+            placeholder="digite sua busca aqui ..."
+          />
+          <img src="/public/images/Icon_Search.svg" alt="" />
+        </div>
+
+        <div id="perfil">
+          <span>Juriscleudo</span>
+          <a href="/" id="header__image"></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <article id="map__content" class="container">
+        <div id="map__text__box">
+          <div class="title">Conheça nosso nordeste</div>
+
+          <hr class="line__title" />
+
+          <div class="container__box">
+            Selecione no mapa ao lado o estado que deseja conhecer, traremos
+            mais informações sobre sua cultura.
+            <br />
+            <br />
+            Navegue pelo nosso site, e conheça mais sobre o nosso nordeste que é
+            riquissímo.
+          </div>
+          <a id="game__link" href="/src/game.html"
+            >Venha conhecer nosso jogo temático
+            <img src="/public/images/Long_Right_Arrow.svg" alt="" />
+          </a>
+        </div>
+        <div id="map__image">
+          <img
+            src="../public/images/Mapa_Nordeste.png"
+            alt="Mapa do Nordeste"
+            id="map"
+          />
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__bahia"
+              class="point__map"
+            />
+            <div class="states__container" id="bahia__container">
+              <div class="close">←</div>
+              <h1 class="title">Bahia</h1>
+              <hr />
+              A Bahia, é um dos estados mais procurados pelos turistas por conta
+              da sua cultura diversa, influenciada principalmente por
+              africanos.<br /><br />
+              Isso é manifestado na culinária, música, misto de religiosidades e
+              festas, principalmente o Carnaval, considerado o maior do Brasil e
+              do mundo. <br /><br />
+              Sua capital é a cidade de Salvador, que já foi capital do Brasil,
+              atualmente possui território de apoximadamente 567.295 km2 e
+              população de 14.930.634 habitantes, segundo dados do IBGE 2019.
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__piaui"
+              class="point__map"
+            />
+            <div class="states__container" id="piaui__container">
+              <div class="close">←</div>
+              <h1 class="title">Piauí</h1>
+              <hr />
+              O Piauí, tem por capital a cidade de Teresina, que é também a mais
+              populosa do estado, tem aproximadamente 3.281.480 habitantes no
+              total e território de 251.755.785 km2, segundo dados do IBGE
+              2019.<br /><br />
+              A cultura do Piauí, é marcada pela influencia africana, indígena e
+              europeia, expressa principalmente pela celebrações religiosas e
+              folclóricas, danças, gastronomia e artes.<br /><br />
+              Uma celebração típica é o Encontro Nacional de Folguedos, que
+              reúne tradições de vários estados e conta com a apresentação de
+              danças folclóricas, quadrilhas, shows e bumba meu boi.
+            </div>
+          </div>
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__maranhao"
+              class="point__map"
+            />
+            <div class="states__container" id="maranhao__container">
+              <div class="close">←</div>
+              <h1 class="title">Maranhão</h1>
+              <hr />
+              O Maranhão, que tem por capital a cidade de São Luis, tem
+              território de aproximadamente 329.651 km2 e população de 7.114.598
+              habitantes, segundo dados do IBGE 2019.<br /><br />
+              A cultura maranhense, é marcada pela influencia dos europeus e
+              portugueses, podemos ver isso nos edificios históricos
+              maranhenses, que possuem os azuleijos portugeses e também nas
+              festas e manifestações folclóricas, como, a festa do divino e a
+              festa do boi-bumbá.
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__ceara"
+              class="point__map"
+            />
+            <div class="states__container" id="ceara__container">
+              <div class="close">←</div>
+              <h1 class="title">Ceará</h1>
+              <hr />
+              O Ceará, é um dos estados mais populosos do Brasil, sua capital é
+              a cidade de Salvador, tem território de aproximadamente
+              148.894,441 km2 e possui população de 9.187.103 habitantes,
+              segundo dados do IBGE 2019.<br /><br />
+              A cultura cearense é marcada principalmente pela influencia
+              indígena e africana, marcada pelas festas folclóricas, artesanato,
+              literatura de cordel e xilogravuras, símbolos da região nordeste
+              como um todo
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__rgn"
+              class="point__map"
+            />
+            <div class="states__container" id="rgn__container">
+              <div class="close">←</div>
+              <h1 class="title">Rio Grande do Norte</h1>
+              <hr />
+              O Rio Grande do Norte, tem por sua capital a cidade de Natal,
+              possui 3.534.165 habitantes e territorio aproximado de 52.809 km2,
+              segundo dados do IBGE 2019.<br /><br />
+              A cultura do Rio Grande do Norte, tem sua base nas atrações
+              folclóricas, como fandango e congo, e nas produções locais. As
+              festas típicas são o Carnaval, Festas Juninas e Festa do Cajú,
+              característica pela quantidade abundante de Cajú no estado, o que
+              também influência a culinária.
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__paraiba"
+              class="point__map"
+            />
+            <div class="states__container" id="paraiba__container">
+              <div class="close">←</div>
+              <h1 class="title">Paraíba</h1>
+              <hr />
+              A Paraíba, que tem por capital a cidade de João Pessoa, tem
+              território aproximado de 56.467.242 km2 e população de 4.039.277
+              habitantes, segundo dados do IBGE 2019.<br /><br />
+              A cultura paraibana, é marcada por concentrar grandes nomes da
+              música nordestina e brasileira, como: Chico César, Zé Ramalho e
+              Elba Ramalho. <br /><br />Concentra também grandes nomes da
+              literatura nacional, como: Ariano Suassuna, José Lins do Rego e
+              Augusto dos Anjos. E ainda a festa de São João de Campina Grande,
+              uma das maiores festas de São João do mundo.
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__pernambuco"
+              class="point__map"
+            />
+            <div class="states__container" id="pernambuco__container">
+              <div class="close">←</div>
+              <h1 class="title">Pernambuco</h1>
+              <hr />
+              O Pernambuco, tem por capital a cidade de Recife, mas chama muita
+              atenção dos turistas pela ilha de Fernando de Noronha, uma das
+              mais belas paisagens naturais do Brasil.<br /><br />
+              A cultura paraíbana tem como destaque no ritmo, o maracatu e o
+              frevo, possuem nomes na música que são destaques nacionais, como:
+              Alceu Valença, Bezerra da Silva, Caju e Castanha, Dominguinhos,
+              Luiz Gonzaga, Reginaldo Rossi, entre muitos outros.<br /><br />
+              O carnaval de Olinda, também tem muito destaque no Brasil,
+              principalmente pelos gigantes bonecos de Olinda.
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__alagoas"
+              class="point__map"
+            />
+            <div class="states__container" id="alagoas__container">
+              <div class="close">←</div>
+              <h1 class="title">Alagoas</h1>
+              <hr />
+              Alagoas, é o segundo menor estado do Brasil, sua capital é a
+              cidade de Maceio, possui territorio de aproximadamente 27.843,295
+              km2 e tem população estimada de 112,33 hab./km2, segundo dados do
+              IBGE 2019.<br /><br />
+              Se destaca por conta da beleza natural e histórica de seus pontos
+              turisticos, em sua grande maioria praias, como a de Maragogi.
+              <div class="arrow__img">
+                Veja mais<img src="/public/images/Right_Arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="../public/images/Icon_Point_Location.svg"
+              alt=""
+              id="point__sergipe"
+              class="point__map"
+            />
+            <div class="states__container" id="sergipe__container">
+              <div class="close">←</div>
+              <h1 class="title">Sergipe</h1>
+              <hr />
+              O Sergipe, tem por capital a cidade de Aracaju, possui 2.318.184
+              habitantes e território de 21.938,184 km2, segundo dados do IBGE
+              2019.<br /><br />
+              A cultura sergipana, é composta pelo encontro das tradições
+              europeias, portuguesas e africanas. A Festa dos Lambe Sujo e
+              Caboclinhos, é marcada pela dança, cânticos e dramaturgia que tem
+              o objetivo de retratar as populações nativas e os africanos
+              escravizados no período colonial.
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="divisor">
+        <hr class="line__divisor" />
+        <hr class="line__divisor" />
+      </div>
+
+      <article class="container">
+        <h1 id="nordeste__title">NORDESTE</h1>
+        <div id="nordeste__text" class="container__box">
+          <p>
+            A região nordeste do Brasil é composta por nove estados: Alagoas,
+            Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do
+            Norte e Sergipe. Segundo os dados do IBGE de 2019, o nordeste
+            brasileiro possui população de aproximadamente 57.071.654 habitantes
+            e corresponde a 18% do território brasileiro, com aproximadamente
+            1,5 milhões de km2.
+          </p>
+          <br />
+          <p>
+            Quando falamos em nordeste é comum pensarmos em uma região de
+            miséria, secas, comandadas por coronéis, o cenário perfeito de um
+            "velho oeste" entre muitos outros estereótipos pintados através dos
+            meios midialisticos. Mas na verdade, o nordeste é uma região de
+            contrastes, onde encontramos diversos grupos sociais, formas de
+            manifestações artísticas, culinárias e outros, de acordo com o
+            pedaço da região que se observa.
+          </p>
+          <br />
+          <p>
+            Estudar a cultura nordestina permite que entendamos as
+            características que essa região possui, além de reconhecer a herança
+            cultural que possuimos por influencia dessa cultura tão rica na
+            sociedade brasileira. A identidade cultural nordestina pode ser
+            percebida na cultura brasileira principalmente por meio das
+            seguintes manifestações: as festas típicas, a música, a culinária e
+            a biodiversidade, assuntos que detalharemos.
+          </p>
+        </div>
+      </article>
+
+      <!-- Slider main container -->
+      <div class="swiper container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="carrosel__text__box container__box">
+              <div class="title">
+                <img
+                  src="/public/images/Icon_Music.svg"
+                  alt=""
+                  class="carrosel__img"
+                />Música
+              </div>
+
+              <hr class="line__title" />
+              <p>
+                A música nordestina possui grande influência na música
+                brasileira como um todo, desde os nomes mais antigos, como: Luiz
+                Gonzaga, Zé Ramalho, Elba Ramalho, Tribalistas, nos ritmos: MPB
+                (Música Popular Brasileira), axé, forró, samba, etc.
+              </p>
+              <br />
+              <p>
+                Até os nomes mais atuais que vem do nordeste mais dominam o
+                Brasil, com novo ritmo: piseiro, cantado por nomes como: Barões
+                da Pisadinha, Tarcísio do Acordeon, João Gomes, entre outros.
+              </p>
+              <div class="arrow__img">
+                Veja mais<img src="/public/images/Right_Arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="carrosel__text__box container__box">
+              <div class="title">
+                <img
+                  src="/public/images/Icon_Dance.svg"
+                  alt=""
+                  class="carrosel__img"
+                />Festa
+              </div>
+
+              <hr class="line__title" />
+
+              <p>
+                As principais festas típicas nordestinas são: Folia de Reis,
+                comemorada principalmente em Piauí e Alagoas; Bumba meu Boi, no
+                Maranhão; São João de Caruaru, no Pernambuco; Lavagem de Bonfim,
+                na Bahia; Festa de Iemanjá, em todo o litoral, mas
+                principalmente na Bahia e o Carnaval, com proporções nacionais,
+                mas se concentra em todo o nordeste.
+              </p>
+              <div class="arrow__img">
+                Veja mais<img src="/public/images/Right_Arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="carrosel__text__box container__box">
+              <div class="title">
+                <img
+                  src="/public/images/Icon_Food.svg"
+                  alt=""
+                  class="carrosel__img"
+                />Culinária
+              </div>
+
+              <hr class="line__title" />
+              <p>
+                A culinária nordestina é considerada uma das mais ricas do
+                mundo, marcada pelos temperos apimentados e fortes, com pratos
+                que simbolizam a religião, posição social, política e cultura do
+                povo da região.
+              </p>
+              <br />
+              <p>
+                Algumas comidas típicas são: carne de sol, acarajé, feijoada,
+                baião de dois, sarapatel, entre muitos outros maravilhosos
+                sabores.
+              </p>
+              <div class="arrow__img">
+                Veja mais<img src="/public/images/Right_Arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="carrosel__text__box container__box">
+              <div class="title">
+                <img
+                  src="/public/images/Icon_Tree.svg"
+                  alt=""
+                  class="carrosel__img"
+                />Biodiversidade
+              </div>
+
+              <hr class="line__title" />
+              <p>
+                O nordeste brasileiro, está contido, quase totalmente ao bioma
+                Caatinga, que tem por características o clima semiárido, seco e
+                com baixa umidade, por conta da baixa presença de água, a
+                vegetação é pequena e possuem espinhos, que servem justamente
+                para armazenar água.
+              </p>
+              <br />
+              <p>
+                Com relação a animais, é uma das regiões mais ricas do mundo,
+                contando com mais de 1.500 espécies diferentes entre mamíferos,
+                peixes, aves, répteis, etc.
+              </p>
+              <div class="arrow__img">
+                Veja mais<img src="/public/images/Right_Arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="container" id="quiz__container">
+        <p>Não sabe por onde começar?</p>
+        <a id="quiz__link" href="/src/quiz.html"
+          >Responda nosso quiz e veja o quanto sabe
+          <img src="/public/images/Long_Right_Arrow.svg" alt=""
+        /></a>
+      </div>
+
+      <div class="divisor">
+        <hr class="line__divisor" />
+        <hr class="line__divisor" />
+      </div>
+
+      <article class="container">
+        <script
+          id="dsq-count-scr"
+          src="//nortural-comments.disqus.com/count.js"
+          async
+        ></script>
+
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+          /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+          ;(function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement('script')
+            s.src = 'https://nortural-comments.disqus.com/embed.js'
+            s.setAttribute('data-timestamp', +new Date())
+            ;(d.head || d.body).appendChild(s)
+          })()
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+
+        <script
+          id="dsq-count-scr"
+          src="//nortural.disqus.com/count.js"
+          async
+        ></script>
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+          var disqus_config = function () {
+            this.page.url = PAGE_URL // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          }
+          ;(function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement('script')
+            s.src = 'https://nortural.disqus.com/embed.js'
+            s.setAttribute('data-timestamp', +new Date())
+            ;(d.head || d.body).appendChild(s)
+          })()
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+      </article>
+
+      <footer class="page__footer">
+        <div id="sobre">
+          <span><a href="/">Contato</a></span>
+          <span>|</span>
+          <span>Nortural © - 2021</span>
+          <span>|</span>
+          <span><a href="/">Termos de Uso</a></span>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

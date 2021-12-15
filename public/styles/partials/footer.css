@@ -1,0 +1,28 @@
+.page__footer {
+  background-color: var(--color-orange-theme);
+  font: 400 2.2rem 'Bubblegum Sans';
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.page__footer #sobre {
+  width: 100%;
+  max-width: 1000px;
+  padding: 1.5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page__footer #sobre a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.page__footer #sobre a:hover {
+  opacity: 0.6;
+}

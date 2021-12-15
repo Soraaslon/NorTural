@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo</title>
+    <link
+      rel="shortcut icon"
+      href="/public/images/Icon_logo.svg"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" href="/game/styles.css" />
+    <link rel="stylesheet" href="/public/styles/main.css" />
+    <link rel="stylesheet" href="/public/styles/partials/header.css" />
+    <link rel="stylesheet" href="/public/styles/partials/footer.css" />
+    <link rel="stylesheet" href="/public/styles/partials/container.css" />
+    <link rel="stylesheet" href="/public/styles/partials/game.css" />
+
+    <script src="/game/script.js" type="module"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Bungee&family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="top-bar">
+        <div id="logo">
+          <a href="/src/index.html">
+            <span id="header__text--green">NOR</span
+            ><span id="header__text--blue">TURAL</span>
+          </a>
+        </div>
+        <div id="search">
+          <input
+            name="search__input"
+            id="search__input"
+            type="text"
+            placeholder="digite sua busca aqui ..."
+          />
+          <img src="/public/images/Icon_Search.svg" alt="" />
+        </div>
+
+        <div id="perfil">
+          <span>Juriscleudo</span>
+          <a href="/" id="header__image"></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <article class="container" id="game__content">
+        <h1>Nordesdino</h1>
+        <div class="world game" data-world>
+          <div class="score" data-score>0</div>
+          <div class="start-screen" data-start-screen>
+            Pressione qualquer tecla para começar
+          </div>
+          <img src="/game/imgs/ground.png" class="ground" data-ground />
+          <img src="/game/imgs/ground.png" class="ground" data-ground />
+          <img src="/game/imgs/dino-stationary.png" class="dino" data-dino />
+        </div>
+      </article>
+      <article class="container">
+        <script
+          id="dsq-count-scr"
+          src="//nortural-comments.disqus.com/count.js"
+          async
+        ></script>
+
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+          /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+          ;(function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement('script')
+            s.src = 'https://nortural-comments.disqus.com/embed.js'
+            s.setAttribute('data-timestamp', +new Date())
+            ;(d.head || d.body).appendChild(s)
+          })()
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+
+        <script
+          id="dsq-count-scr"
+          src="//nortural.disqus.com/count.js"
+          async
+        ></script>
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+          var disqus_config = function () {
+            this.page.url = PAGE_URL // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          }
+          ;(function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement('script')
+            s.src = 'https://nortural.disqus.com/embed.js'
+            s.setAttribute('data-timestamp', +new Date())
+            ;(d.head || d.body).appendChild(s)
+          })()
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+      </article>
+    </main>
+
+    <footer class="page__footer">
+      <div id="sobre">
+        <span><a href="/">Contato</a></span>
+        <span>|</span>
+        <span>Nortural © - 2021</span>
+        <span>|</span>
+        <span><a href="/">Termos de Uso</a></span>
+      </div>
+    </footer>
+  </body>
+</html>
