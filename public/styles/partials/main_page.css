@@ -321,3 +321,9 @@
     grid-area: text;
   }
 }
+
+@media (max-width: 550px) {
+  .carrosel__text__box {
+    height: 65rem;
+  }
+}
