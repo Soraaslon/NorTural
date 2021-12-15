@@ -2,7 +2,7 @@ import {
   setCustomProperty,
   incrementCustomProperty,
   getCustomProperty
-} from './updateCustomProperty.js'
+} from 'updateCustomProperty.js'
 
 const SPEED = 0.05
 const CACTUS_INTERVAL_MIN = 500
@@ -42,7 +42,7 @@ export function getCactusRects() {
 function createCactus() {
   const cactus = document.createElement('img')
   cactus.dataset.cactus = true
-  cactus.src = '/game/imgs/cactus.png'
+  cactus.src = '../game/imgs/cactus.png'
   cactus.classList.add('cactus')
   setCustomProperty(cactus, '--left', 100)
   worldElem.append(cactus)
